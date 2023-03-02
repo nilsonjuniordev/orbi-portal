@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Orbi</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <script src="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+    "></script>
+    <link href="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+    " rel="stylesheet">
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var splide = new Splide('.splide');
+            splide.mount();
+        });
+    </script>
+
+    <script> document.addEventListener('DOMContentLoaded', function () {
+            new Splide('#image-carousel-2').mount();
+        });
+    </script>
+
+
+    <script> document.addEventListener('DOMContentLoaded', function () {
+            new Splide('#orbi-loteria').mount();
+        });
+    </script>
+
+
+    <script>
+
+
+        document.addEventListener('DOMContentLoaded', function () {
+            new Splide('#orbi-vid1', {
+                perPage: 3,
+                breakpoints: {
+                    640: {
+                        perPage: 1,
+                    },
+                },
+            }).mount();
+        });
+
+
+    </script>
+
+
+    <script>
+
+
+        document.addEventListener('DOMContentLoaded', function () {
+            new Splide('#orbi-vid2', {
+
+
+                perPage: 4,
+                gap: 20,
+                breakpoints: {
+                    640: {
+                        perPage: 1,
+
+                    },
+                },
+            }).mount();
+        });
+
+
+    </script>
+
+
+
+    <style>
+        .splide__slide img {
+            vertical-align: bottom;
+            width: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <!-- NAVIGATION START -->
+
+    <header class="orbi-header">
+        <div class="orbi-content">
+            <div class="options">
+                <label>
+                    <img src="/img/menu-aside.png" alt="i">
+                </label>
+            </div>
+
+            <div class="orbi-header-btn">
+                <a href="" class="orbi-header-box orbi-shadow-box">
+                    <img src="/img/icon-livro.png" alt="i">
+                    <span>Jornal</span>
+                </a>
+                <a href="" class="orbi-header-box  newsletter orbi-shadow-box">
+                    <img src="/img/icon-newsletter.png" alt="i">
+                    <span>Newsletter</span>
+                </a>
+            </div>
+            <h1 class="logo-orbi">
+                <a href="/">
+                    <img class="logo" src="/img/logo-orbi.png" alt="i">
+                </a>
+            </h1>
+            <div class="busca-header">
+                <div class="busca-header orbi-shadow-box">
+                    <div class="ob-iconSearch">
+                        <img src="/img/icon-search.png" alt="i">
+                    </div>
+                    <input type="text" class="searchInput" placeholder="Busca">
+                </div>
+            </div>
+        </div>
+        <nav class="orbi-navbar">
+            <ul>
+                <li>
+                    <a href="">
+                        S&#227;o Paulo
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Entretenimento
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Esportes
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Brasil
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Mundo
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Colunistas
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Newsletter
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Web stories
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+
+    </header>
+
+
+
+
+    <!-- fullBanner -->
+    <div class="orbi-container-def">
+
+        <section id="image-carousel" class="splide " aria-label="Banner Manchete">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <img src="img/banner_principal.png" alt="">
+
+
+
+
+                        <div class="head-banner">
+                            <span class="orbi-banner-categoria">Categoria</span>
+
+                            <span class="share">
+                                <img alt="Compartilhar" src="img/icon-send.png">
+                                compartilhe
+
+                            </span>
+
+                        </div>
+
+                        <div class="orbi-box-manchete">
+                            <span class="manchete-box">
+                                &ensp; ORA, BOLAS!
+                            </span>
+                            <h1>
+                                Copa, Seleção e um torcedor reformado
+                            </h1>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <!-- orbi manchetes -->
+    <div class="orbi-container-grid">
+        <div class="orbi-grid-banner">
+
+            <div class="orbi-bloco-8">
+                <section id="image-carousel-2" class="splide" aria-label="Beautiful Images">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <img src="/img/banner-grid-1.png" alt="">
+
+                                <div class="head-banner-grid">
+                                    <span class="orbi-banner-categoria">Categoria</span>
+
+                                    <span class="share">
+                                        <img alt="Compartilhar" src="img/icon-send.png">
+                                        compartilhe
+
+                                    </span>
+
+                                </div>
+
+                                <div class="orbi-box-manchete-grid">
+                                    <span class="manchete-box">
+                                        &ensp; vacinação </span>
+
+                                    <h2>
+                                        São Paulo começa a aplicar 4ª dose da vacina contra covid-19 em maiores de 30
+                                        anos
+                                    </h2>
+                                </div>
+
+
+
+                            </li>
+
+                        </ul>
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="orbi-bloco-4">
+                <img src="/img/banner-grid-2.png" alt="">
+                <div class="head-banner-grid">
+                    <span class="orbi-banner-categoria">Categoria</span>
+
+                    <span class="share">
+                        <img alt="Compartilhar" src="img/icon-send.png">
+                        compartilhe
+
+                    </span>
+
+                </div>
+
+                <div class="orbi-box-manchete-grid">
+                    <span class="manchete-box-grid">
+                        &ensp; metro</span>
+                    <h2 class="manchete-h2-m">
+                        Tatuzão voltará a escavar nova linha do metrô seis meses após cratera abrir
+                    </h2>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- grid conteudos m1 -->
+    <div class="orbi-container-grid">
+        <div class="orbi-grid-m1">
+
+            <div class="box1">
+                <article class="orbi-cont-grid">
+                    <a href="">
+                        <div class="orbi-cont-grid-box">
+                            <h3>categoria</h3>
+
+                            <h3>Luana Piovani compartilha novo projeto com seguidores: ‘Tão feliz’</h3>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="orbi-cont-grid">
+                    <a href="">
+                        <div class="orbi-cont-grid-box">
+                            <h3>categoria</h3>
+
+                            <h3>Luana Piovani compartilha novo projeto com seguidores: ‘Tão feliz’</h3>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="orbi-cont-grid">
+                    <a href="">
+                        <div class="orbi-cont-grid-box">
+                            <h3>categoria</h3>
+
+                            <h3>Luana Piovani compartilha novo projeto com seguidores: ‘Tão feliz’</h3>
+                        </div>
+                    </a>
+                </article>
+
+            </div>
+            <div class="box2">
+
+
+                <article class="orbi-cont-grid">
+                    <a href="">
+                        <img alt="" src="/img/categoria-1.png">
+                        <div class="orbi-cont-grid-box">
+                            <h3>categoria</h3>
+
+                            <h3>Luana Piovani compartilha novo projeto com seguidores: ‘Tão feliz’</h3>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="orbi-cont-grid">
+                    <a href="">
+                        <img alt="" src="/img/categoria-1.png">
+                        <div class="orbi-cont-grid-box">
+                            <h3>categoria</h3>
+
+                            <h3>Luana Piovani compartilha novo projeto com seguidores: ‘Tão feliz’</h3>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="orbi-cont-grid">
+                    <a href="">
+                        <img alt="" src="/img/categoria-1.png">
+                        <div class="orbi-cont-grid-box">
+                            <h3>categoria</h3>
+
+                            <h3>Luana Piovani compartilha novo projeto com seguidores: ‘Tão feliz’</h3>
+                        </div>
+                    </a>
+                </article>
+
+            </div>
+            <div class="box3">
+
+                <article class="orbi-loteria orbi-shadow-box">
+                    <div class="splide orbi-loteria splide--fade splide--ltr splide--draggable is-active is-initialized"
+                        aria-label="Orbi - Loterias" id="orbi-loteria" style="display: inherit;">
+
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide is-active is-visible">
+                                    <div class="top-loteria">
+                                        <h2>Lotomania</h2>
+                                        <h3>Concurso 2336 (08/07/22)</h3>
+                                    </div>
+                                    <div class="orbi-resultado">
+                                        <span style="background-color:#F6650C;">00</span>
+                                        <span style="background-color:#F6650C;">00</span>
+                                        <span style="background-color:#F6650C;">00</span>
+                                        <span style="background-color:#F6650C;">00</span>
+                                        <span style="background-color:#F6650C;">00</span>
+                                        <span style="background-color:#F6650C;">00</span>
+                                        <span style="background-color:#F6650C;">00</span>
+                                        <span style="background-color:#F6650C;">00</span>
+                                        <span style="background-color:#F6650C;">00</span>
+                                        <span style="background-color:#F6650C;">00</span>
+                                        <span style="background-color:#F6650C;">00</span>
+                                        <span style="background-color:#F6650C;">00</span>
+                                        <span style="background-color:#F6650C;">00</span>
+                                        <span style="background-color:#F6650C;">00</span>
+                                        <span style="background-color:#F6650C;">00</span>
+                                        <span style="background-color:#F6650C;">00</span>
+                                        <span style="background-color:#F6650C;">00</span>
+                                        <span style="background-color:#F6650C;">00</span>
+                                        <span style="background-color:#F6650C;">00</span>
+                                        <span style="background-color:#F6650C;">00</span>
+                                    </div>
+                                </li>
+
+
+                            </ul>
+                        </div></div>
+                </article>
+
+
+            </div>
+            <div class="box4">
+
+                <div class="orbi-prev orbi-shadow-box">
+                    <div class="top-prev">
+                        <h2>São Paulo</h2>
+                        <p>
+                            terça feira, <span>15:00</span>
+                        </p>
+                    </div>
+                    <img src="img/icon-prev.png" alt="previsao">
+                    <div class="prev-info">
+                        <span style="color: #FFA500;">
+                            ensolarado
+                        </span>
+                        <h2>
+                            24°C
+                        </h2>
+                    </div>
+                </div>
+
+            </div>
+            <div class="box5">
+
+
+                <article class="orbi-cont-grid">
+                    <a href="">
+                        <div class="orbi-cont-grid-box">
+                            <h3>categoria</h3>
+
+                            <h3>Luana Piovani compartilha novo projeto com seguidores: ‘Tão feliz’</h3>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="orbi-cont-grid">
+                    <a href="">
+                        <div class="orbi-cont-grid-box">
+                            <h3>categoria</h3>
+
+                            <h3>Luana Piovani compartilha novo projeto com seguidores: ‘Tão feliz’</h3>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="orbi-cont-grid">
+                    <a href="">
+                        <div class="orbi-cont-grid-box">
+                            <h3>categoria</h3>
+
+                            <h3>Luana Piovani compartilha novo projeto com seguidores: ‘Tão feliz’</h3>
+                        </div>
+                    </a>
+                </article>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="orbi-container-grid">
+        <div class="orbi-grid-publi">
+            <div class="box100">
+<section class="publi-ads">
+<img src="/img/publi-1.png" alt="">
+
+</section>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!--Orbi TV-->
+    <div class="orbi-container-def">
+        <section class="orbi-vid">
+            <section class="orbi-vid-content">
+
+                <div class="orbi-head-vid">
+                    <img src="/img/logo-orbitv.png" alt="orbitv">
+                    <div><button class="orbi-vid-btn-active orbi-vid-btn">VÍDEOS</button>
+                        <button class="orbi-vid-btn"> SHORTS</button>
+                    </div>
+
+                </div>
+
+                <section id="orbi-vid1" class="splide" aria-label="Slide Container Example">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="splide__slide__container">
+                                    <img src="/img/vid-1.png" alt="Arquitetura Hostil">
+                                </div>
+                                <div class="box-legenda-vid"><span class="orbi-legenda-vid"> Lei proíbe arquitetura
+                                        hostil no Brasil - Orbi na Band</span></div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="splide__slide__container">
+                                    <img src="/img/vid-2.png" alt="Marcos Lacerda">
+                                </div>
+                                <div class="box-legenda-vid"><span class="orbi-legenda-vid">A TAL DA ESPERANÇA - Só Mais
+                                        5 Minutinhos com Marcos Lacerda #2</span></div>
+                            </li>
+
+                            <li>
+                                <div class="splide__slide__container">
+                                    <img src="/img/vid-3.png" alt="Frio em janeiro">
+                                </div>
+                                <div class="box-legenda-vid"> <span class="orbi-legenda-vid">A TAL DA ESPERANÇA - Só
+                                        Mais 5 Minutinhos com Marcos Lacerda #2</span></div>
+                            </li>
+
+
+
+
+
+                        </ul>
+                    </div>
+                </section>
+
+
+                <div class="orbi-footer-vid">
+
+                    <img alt="youtube-icon" src="/img/icon-youtube-play.png">
+                    <a href="https://m.youtube.com/@orbitv">Inscreva-se no nosso canal</a>
+
+                </div>
+            </section>
+        </section>
+    </div>
+
+
+
+
+
+    <!-- +lidas -->
+    <div class="orbi-container-grid">
+        <div class="orbi-maislidas orbi-shadow-box">
+            <h2>+LIDAS</h2>
+
+            <div class="maislidas-content">
+
+
+                <a href="" class="mais-lidas-bloco">
+                    <span>1</span>
+                    <h2>Estreias do Amazon Prime Video em julho incluem ‘Casa Gucci’ e ‘Spencer’</h2>
+                </a>
+
+
+                <a href="" class="mais-lidas-bloco">
+                    <span>2</span>
+                    <h2>Estreias do Amazon Prime Video em julho incluem ‘Casa Gucci’ e ‘Spencer’</h2>
+                </a>
+
+
+                <a href="" class="mais-lidas-bloco">
+                    <span>3</span>
+                    <h2>Estreias do Amazon Prime Video em julho incluem ‘Casa Gucci’ e ‘Spencer’</h2>
+                </a>
+
+
+                <a href="" class="mais-lidas-bloco">
+                    <span>4</span>
+                    <h2>Estreias do Amazon Prime Video em julho incluem ‘Casa Gucci’ e ‘Spencer’</h2>
+                </a>
+
+
+                <a href="" class="mais-lidas-bloco">
+                    <span>5</span>
+                    <h2>Estreias do Amazon Prime Video em julho incluem ‘Casa Gucci’ e ‘Spencer’</h2>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <!--Orbi copa2022-->
+    <div class="orbi-container-def">
+        <section class="orbi-copa">
+            <section class="orbi-copa-content">
+
+                <div class="orbi-head-copa">
+                    <img src="/img/logo-copa.png" alt="orbicopa">
+
+
+                </div>
+
+                <section id="orbi-vid2" class="splide" aria-label="Slide Container Example">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="splide__slide__container">
+                                    <img class="copa-img" src="/img/banner-copa-1.png" alt="banner copa">
+                                    <div class="head-banner-grid">
+                                        <span class="orbi-banner-categoria">Esportes</span>
+
+                                        <span class="share">
+                                            <img alt="Compartilhar" src="img/icon-send.png">
+                                            compartilhe</span>
+                                    </div>
+                                    <div class="orbi-box-manchete-grid">
+                                        <span class="manchete-box-grid">
+                                            &ensp; copa qatar 2022</span>
+                                        <h2 class="manchete-h2-m">
+                                            Seleção Brasileira leva 30kg de farinha para a Copa do Mundo
+                                        </h2>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="splide__slide__container">
+                                    <img src="/img/banner-copa-2.png" alt="banner copa">
+                                    <div class="head-banner-grid">
+                                        <span class="orbi-banner-categoria">Esportes</span>
+
+                                        <span class="share">
+                                            <img alt="Compartilhar" src="img/icon-send.png">
+                                            compartilhe
+
+                                        </span>
+
+                                    </div>
+
+                                    <div class="orbi-box-manchete-grid">
+                                        <span class="manchete-box-grid">
+                                            &ensp; copa qatar 2022</span>
+                                        <h2 class="manchete-h2-m">
+                                            Sem Cano, Messi lidera a lista da Argentina para Copa 2022
+                                        </h2>
+                                    </div>
+
+                                </div>
+                            </li>
+
+                            <li class="splide__slide">
+                                <div class="splide__slide__container">
+                                    <img src="/img/banner-copa-3.png" alt="banner copa">
+                                    <div class="head-banner-grid">
+                                        <span class="orbi-banner-categoria">Esportes</span>
+
+                                        <span class="share">
+                                            <img alt="Compartilhar" src="img/icon-send.png">
+                                            compartilhe
+
+                                        </span>
+
+                                    </div>
+
+                                    <div class="orbi-box-manchete-grid">
+                                        <span class="manchete-box-grid">
+                                            &ensp; copa qatar 2022</span>
+                                        <h2 class="manchete-h2-m">
+                                            Sem Neymar, Brasil se apresenta na Itália para 1º treino
+                                        </h2>
+                                    </div>
+
+                                </div>
+                            </li>
+
+                            <li class="splide__slide">
+                                <div class="splide__slide__container">
+                                    <img src="/img/banner-copa-4.png" alt="banner copa">
+                                    <div class="head-banner-grid">
+                                        <span class="orbi-banner-categoria">esportes</span>
+
+                                        <span class="share">
+                                            <img alt="Compartilhar" src="img/icon-send.png">
+                                            compartilhe
+
+                                        </span>
+
+                                    </div>
+                                    <div class="orbi-box-manchete-grid">
+                                        <span class="manchete-box-grid">
+                                            &ensp; copa qatar 2022</span>
+                                        <h2 class="manchete-h2-m">
+                                            Vídeo: Galvão Bueno está internado às vésperas da Copa
+                                        </h2>
+                                    </div>
+
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </section>
+
+
+
+            </section>
+        </section>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- footer -->
+    <footer class="orbi-footer">
+        <div class="orbi-content">
+            <img src="/img/logo-orbi.png" alt="Orbi-logo">
+            <div class="social">
+                <a target="_blank" href="https://instagram.com/orbinews">
+                    <img src="/img/instagram.png" alt="icon">
+                </a>
+                <a target="_blank" href="">
+                    <img src="/img/facebook.png" alt="icon">
+                </a>
+                <a target="_blank" href="" >
+                    <img src="/img/youtube.png" alt="icon">
+
+                </a>
+                <a target="_blank" href="">
+                    <img src="/img/tiktok.png" alt="icon">
+                </a>
+                
+            </div>
+            <ul>
+                <li>
+                    <a href="/sao-paulo">
+                        S&#227;o Paulo
+                    </a>
+                </li>
+                <li>
+                    <a href="/entretenimento">
+                        Entretenimento
+                    </a>
+                </li>
+                <li>
+                    <a href="https://orbi.band.uol.com.br/esportes">
+                        Esportes
+                    </a>
+                </li>
+                <li>
+                    <a href="/brasil">
+                        Brasil
+                    </a>
+                </li>
+                <li>
+                    <a href="/mundo">
+                        Mundo
+                    </a>
+                </li>
+                <li>
+                    <a href="/colunistas">
+                        Colunistas
+                    </a>
+                </li>
+                <li>
+                    <a href="https://orbi.band.uol.com.br/newsletter">
+                        Newsletter
+                    </a>
+                </li>
+                <li>
+                    <a href="https://orbi.band.uol.com.br/tags/webstories">
+                        Web stories
+                    </a>
+                </li>
+                <li>
+                    <a href="https://orbi.band.uol.com.br/jornal">
+                        Jornal Digital
+                    </a>
+                </li>
+                <li>
+                    <a href="https://orbi.band.uol.com.br/sobre-a-orbi">
+                        Sobre a Orbi
+                    </a>
+                </li>
+                <li>
+                    <a href="https://orbi.band.uol.com.br/pol%C3%ADtica%20de%20privacidade">
+                        Pol&#237;tica de privacidade
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+
+
+</body>
+
+</html>
