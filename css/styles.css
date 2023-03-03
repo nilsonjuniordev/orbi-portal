@@ -454,9 +454,29 @@ font-size: 14px;
     display: flex;
     flex-direction: column;
     position: relative;
+    justify-content: center;
+}
+
+.orbi-bloco-3 {
+    grid-column: span 3;
+    grid-row: span 4;
+
+
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    
 }
 
 
+.orbi-bloco-2 {
+    grid-column: span 2;
+    grid-row: span 4;
+    
+}
 
 
 /* grid m1*/
@@ -466,7 +486,17 @@ font-size: 14px;
     grid-template-columns: repeat(12,1fr);
     grid-auto-rows: minmax(100px,auto);
     grid-auto-flow: row;
-    gap: 10px; 
+    gap: 15px; 
+
+}
+
+.orbi-grid-m2{
+
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-auto-rows: minmax(60px,auto);
+    grid-auto-flow: row;
+    gap: 15px; 
 
 }
 
@@ -702,6 +732,40 @@ font-size: 14px;
     grid-row-end: 4;
 }
 
+.orbi-box-3 {
+    
+    grid-column: span 4;
+    grid-row: span 4;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.logo-m{
+    margin-left: 15px;
+width: 50%;
+height: auto;
+
+}
+
+.logo-s{
+    margin-left: 5px;
+    padding-bottom: 20px;
+width: 20%;
+height: auto;
+
+}
+
+.orbi-box-publi {
+   background:  #ececec;
+    border-radius: 20px;
+    grid-column: span 4;
+    grid-row: span 4;
+    display: flex;
+    justify-content: center;
+
+}
+
 .publi-ads {
     display: flex;
     align-items: center;    
@@ -900,13 +964,101 @@ font-size: 14px;
 
 
 
+.orbi-newsletter {
+    grid-column: span 4;
+    grid-row: span 3;
+    border-radius: 15px;
+    background-color: #f3f3f3;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.orbi-newsletter h3 {
+    color: #ff0a6b;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.orbi-newsletter>h2 {
+    color: #231f20;
+    margin: 10px 0 5px;
+    font-family: pacaembu-regular;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.orbi-newsletter p {
+    font-family: pacaembu-medium;
+    font-size: 12px;
+    line-height: 18px;
+    color: #5d5d5d;
+}
+
+#orbi-form-newsletter {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 20px 0 15px;
+}
+
+#orbi-form-newsletter .submit {
+    height: 45px;
+    width: 100%;
+    border-radius: 22px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 5px 5px 5px 32px;
+}
+
+#orbi-form-newsletter .submit input {
+    
+    width: 100%;
+    font-family: pacaembu-medium;
+    font-size: 12px;
+    line-height: 25px;
+    color: #727272;
+}
+
+#orbi-form-newsletter .submit button {
+    
+    height: 90px;
+    width: 70px;
+    font-family: pacaembu-medium;
+    font-size: 12px;
+    line-height: 20px;
+    color: #727272;
+    }
 
 
+    #orbi-form-newsletter  .submit button img {
+        width: 100px;
+        height: 100px;
+        padding: 9px 9px 7px 7px;
+    }
+
+    #orbi-form-validacao p{
+        font-size: 14px;
+        padding: 10px 10px 20px 5px;
+        color: #ff0a6b;
+    }
 
 
+    .orbi-horoscopo{
+       
+        padding: 80px 0px;
 
+    }
+    .orbi-horoscopo h2{
+        font-family: pacaembu-regular;
+        font-size: 30px;
+        font-weight: bold;
+        color: #1f1e1e;
 
-
+    }
 
 
 /*footer --------------------------------------------------------------*/
