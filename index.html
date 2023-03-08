@@ -10,9 +10,15 @@
     <script src="
     https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
     "></script>
+    <script src="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-grid@0.4.1/dist/js/splide-extension-grid.min.js
+    "></script>
+
     <link href="
     https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     " rel="stylesheet">
+
+   
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {
@@ -72,6 +78,35 @@
 
     </script>
 
+
+
+
+<script>
+
+
+document.addEventListener('DOMContentLoaded', function () {
+            new Splide('#orbi-vid3', {              
+                perPage: 1,
+          
+        grid: {         
+         dimensions: [ [ 2,2]]
+  },
+  breakpoints: {
+		800: {
+			grid: {
+				rows: 2,
+				cols: 2,
+			},
+		},
+		600: {
+			grid: false,
+		},
+  },
+  
+  } ).mount( window.splide.Extensions );
+});
+
+</script>
 
 
     <style>
@@ -354,7 +389,7 @@
                 <!-- orbi loterias -->
                 <article class="orbi-loteria orbi-shadow-box">
                     <div class="splide orbi-loteria splide--fade splide--ltr splide--draggable is-active is-initialized"
-                        aria-label="Orbi - Loterias" id="orbi-loteria" style="display: inherit;">
+                        id="orbi-loteria" style="display: inherit;">
 
                         <div class="splide__track">
                             <ul class="splide__list">
@@ -744,7 +779,7 @@
 
                 <article class="orbi-cont-grid">
                     <a href="">
-                        <img alt="" src="/img/colu-prof-2.png" alt="">
+                        <img src="/img/colu-prof-2.png" alt="">
                         <div class="orbi-cont-grid-box">
                             <h3>Contos da Cozinha</h3>
 
@@ -777,15 +812,15 @@
                         cedinho!</p>
                     <form id="orbi-form-newsletter" onsubmit="return false;">
                         <div class="submit ">
-                            <input id="" type="text" name="email" placeholder="Digite seu e-mail">
-                            <button type="submit" value="click" id="">
+                            <input id="email" type="text" name="email" placeholder="Digite seu e-mail">
+                            <button type="submit" value="click" id="btn">
                                 <img class="img" alt="Newsletter" src="/img/send-news.png">
                             </button>
                         </div>
                         <p>Ou</p>
                         <div class="submit">
-                            <input id="" type="text" name="phone" placeholder="Digite seu Whatsapp com DDD">
-                            <button type="submit" value="click" id="">
+                            <input id="phone" type="text" name="phone" placeholder="Digite seu Whatsapp com DDD">
+                            <button type="submit" value="click" id="btnphone">
                                 <img class="img" alt="Newsletter-orbi" src="/img/send-news.png">
                             </button>
                         </div>
@@ -798,7 +833,7 @@
 
                 <article class="orbi-cont-grid">
                     <a href="">
-                        <img alt="" src="/img/categoria-2.png" alt="">
+                        <img src="/img/categoria-2.png" alt="">
                         <div class="orbi-cont-grid-box">
                             <h3>Categoria</h3>
 
@@ -826,7 +861,7 @@
         </div>
 
 
-    <div class="orbi-grid-m2">
+    <div class="orbi-grid-m3">
 
         <div class="orbi-bloco-1"> <img src="/img/aries.png" alt="aries"></div>
         <div class="orbi-bloco-1"> <img src="/img/touro.png" alt="aries"></div>
@@ -967,7 +1002,7 @@
 
     <!--Orbi publi ads-->
     <div class="orbi-container-grid">
-        <div class="orbi-grid-publi">
+                <div class="orbi-grid-publi">
             <div class="box100">
                 <section class="publi-ads">
                     <img src="/img/publi-3.png" alt="">
@@ -985,9 +1020,102 @@
 
 
     <!--Orbi videos-->
+<section class="orbi-videos">
+    <div class="orbi-container-grid">
+
+
+<div class="head-videos">
+
+
+<div class="logo-videos">
+
+<img class="" src="/img/logo-vid.png" alt="logo videos">
+
+</div>
+
+
+<div class="menu-videos">
+<ul>
+
+<li class="activeMenuVideos">Todos os vídeos</li>
+<li>Cinema</li>
+<li>Música</li>
+<li>Teatro</li>
+<li>Entrevistas</li>
+<li>Entretenimento</li>
+
+
+</ul>
+
+
+</div>
+
+</div>
+
+
+<div class="orbi-grid-videos">
+        <div class="orbi-bloco-7"><img class="copa-img" src="/img/vid-orb-1.png" alt="vid1"></div>
+
+        <div class="orbi-bloco-5"><h2 style="margin-left: 30px;">Videos relacionados</h2>
+        <section id="orbi-vid3" class="splide" aria-label="Slide Container Example">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <div class="splide__slide__container">
+                            <img class="copa-img" src="/img/vid-orb-2.png" alt="vid2">
+                         
+
+                        </div>
+                    </li>
+
+                    <li class="splide__slide">
+                        <div class="splide__slide__container">
+                            <img class="copa-img" src="/img/vid-orb-2.png" alt="vid2">
+                         
+
+                        </div>
+                    </li>
+
+                    <li class="splide__slide">
+                        <div class="splide__slide__container">
+                            <img class="copa-img" src="/img/vid-orb-2.png" alt="vid2">
+                         
+
+                        </div>
+                    </li>
+
+                    <li class="splide__slide">
+                        <div class="splide__slide__container">
+                            <img class="copa-img" src="/img/vid-orb-2.png" alt="vid2">
+                         
+
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </section></div></div>
+
+</div></section>
 
 
 
+    <!--Orbi publi ads-->
+    <div class="orbi-container-grid">
+        <div class="orbi-grid-publi">
+    <div class="box100">
+        <section class="publi-ads">
+            <img src="/img/publi-4.png" alt="">
+
+        </section>
+
+
+
+    </div>
+
+</div>
+
+</div>
 
 
 
@@ -1070,7 +1198,6 @@
             </ul>
         </div>
     </footer>
-
 
 
 
